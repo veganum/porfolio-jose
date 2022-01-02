@@ -1,3 +1,33 @@
-<p>
-  home works!
-</p>
+<mat-toolbar color="primary">
+  <span>Porfolio</span>
+  <span class="example-spacer"></span>
+
+  <div class="example-button-container">
+    <button class="home-button" mat-raised-button color="primary">
+      Primary
+    </button>
+    <button class="home-button" mat-raised-button color="primary">
+      Primary
+    </button>
+    <button class="home-button" mat-raised-button color="primary">
+      Primary
+    </button>
+
+    <button
+      class="login-button"
+      mat-mini-fab
+      color="warn"
+      aria-label="Login"
+      routerLink="/login"
+    >
+      <mat-icon><span class="material-icons"> login </span></mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>1</mat-grid-tile>
+  <mat-grid-tile>2</mat-grid-tile>
+  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list>
